@@ -1,0 +1,43 @@
+.div-principal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.div-form {
+    background-color: #e0e0eb;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-right: 10%;
+    width: 40%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.div-input {
+    margin-bottom: 1rem;    
+}
+
+.div-input label {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.div-input input {
+    width: 80%;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.div-lembrar-esqueci {
+    display: flex;
+    justify-content: space-between;
+}

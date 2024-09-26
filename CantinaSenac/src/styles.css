@@ -1,15 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 1.6;
-    color: #333;
+    font-family: "Arial";
+    height: 100vh;
     background-color: white;
+    font-size: 16px;
 }
-
-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
