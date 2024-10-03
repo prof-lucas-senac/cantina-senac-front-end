@@ -4,6 +4,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    background: url("../../assets/imagens/bg-cantina-senac.jpg");
 }
 
 .div-form {
@@ -40,4 +41,36 @@
 .div-lembrar-esqueci {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.div-lembrar-esqueci a{
+    text-decoration: none;
+}
+
+.div-lembrar input{
+    margin-right: 0.5em;
+}
+
+.div-button-entrar {
+    display: flex;
+    justify-content: center;
+}
+
+.button-entrar {
+    height: 2.5em;
+    width: 20em;
+    border-radius: 0.7em;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.p-cadastre-se {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.p-cadastre-se a {
+    text-decoration: none;
 }
