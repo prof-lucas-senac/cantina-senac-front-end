@@ -4,6 +4,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    background: url("../../assets/imagens/bg-cantina-senac.jpg");
 }
 
 .div-form {
@@ -70,6 +71,6 @@
     margin-top: 1em;
 }
 
-.a-cadastre-se {
+.p-cadastre-se a{
     text-decoration: none;
 }
