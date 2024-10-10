@@ -19,8 +19,58 @@ header {
     align-items: end;
 }
 
-
 .div-avatar a {
     text-decoration: none;
     color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+section {
+    background-color: gray;
+    margin: 1em;
+    padding: 1em;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5em;
+}
+
+.p-feedback {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.div-comentarios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-comentarios a {
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    height: 6em;
+    width: 6em;
+    margin-right: 0.8em;
+    border-radius: 50%;
+}
+
+section img {
+    height: 5em;
+    width: 5em;
+    margin-right: 0.8em;
+    border-radius: 50%;
 }
