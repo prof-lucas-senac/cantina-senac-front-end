@@ -8,6 +8,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { AdminComponent } from './admin/admin.component';
+import { CardFeedbackComponent } from './feedback/card-feedback/card-feedback.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AdminComponent } from './admin/admin.component';
     FeedbackComponent,
     PerfilComponent,
     AdminComponent,
+    CardFeedbackComponent,
   ],
   imports: [
     BrowserModule,
