@@ -36,31 +36,6 @@ main h2 {
     margin-bottom: 1em;
 }
 
-section {
-    background-color: gray;
-    margin: 1em;
-    padding: 1em;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 0.5em;
-}
-
-.p-feedback {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-.div-comentarios {
-    display: flex;
-    justify-content: space-between;
-}
-
-.div-comentarios a {
-    text-decoration: none;
-    color: white;
-}
-
 header img {
     height: 6em;
     width: 6em;
@@ -68,13 +43,5 @@ header img {
     border-radius: 50%;
 }
 
-section img {
-    height: 5em;
-    width: 5em;
-    margin-right: 0.8em;
-    border-radius: 50%;
-}
 
-.div-feedback {
-    width: 100%;
-}
+
