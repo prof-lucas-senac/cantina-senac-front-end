@@ -1,10 +1,10 @@
 <section>
     <img src="../../assets/imagens/avatar.jpg" alt="">
     <div class="div-feedback">
-        <h3>NomeUsuario</h3>
-        <p class="p-feedback">Feedback curto</p>
+        <h3>{{ feedback.nomeUsuario }}</h3>
+        <p class="p-feedback">{{ feedback.escopo }}</p>
         <div class="div-comentarios">
-            <a href="">3 Comentário(s)</a>
+            <a href="">{{ feedback.numComentarios }} Comentário(s)</a>
             <a href="">Comentar</a>
         </div>
     </div>

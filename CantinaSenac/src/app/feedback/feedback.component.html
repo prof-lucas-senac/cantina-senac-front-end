@@ -18,6 +18,7 @@
 
 <main>
     <h2>Mural de feedbacks</h2>
-    
-    <app-card-feedback></app-card-feedback>
+    <div *ngFor="let feedback of feedbacks">
+        <app-card-feedback></app-card-feedback>
+    </div>
 </main>
