@@ -21,17 +21,6 @@ section {
     font-size: 1.5em;
 }
 
-.div-avatar {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-
-.div-avatar a {
-    text-decoration: none;
-    color: black;
-}
-
 .p-feedback {
     margin-top: 0.5em;
     margin-bottom: 0.5em;

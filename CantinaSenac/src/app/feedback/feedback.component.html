@@ -17,27 +17,7 @@
 </header>
 <main>
     <h2>Mural de feedbacks</h2>
-    <app-card-feedback></app-card-feedback>
-    <section>
-        <img src="../../assets/imagens/avatar.jpeg" alt="">
-        <div class="div-feedback">
-            <h3>NomeUsuario</h3>
-            <p class="p-feedback">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et corrupti ipsum laudantium modi? Reiciendis labore nam aliquam? Assumenda nulla excepturi veniam in officiis. Officia, est cumque incidunt voluptatem a facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fuga delectus perspiciatis neque reiciendis quidem sit? Velit quod tempora facere facilis quasi earum ipsam? Commodi labore ratione possimus suscipit laborum?</p>
-            <div class="div-comentarios">
-                <a href="">3 Comentário(s)</a>
-                <a href="">Comentar</a>
-            </div>
-        </div>
-    </section>
-    <section>
-        <img src="../../assets/imagens/avatar.jpeg" alt="">
-        <div class="div-feedback">
-            <h3>NomeUsuario</h3>
-            <p class="p-feedback">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et corrupti ipsum laudantium modi? Reiciendis labore nam aliquam?</p>
-            <div class="div-comentarios">
-                <a href="">3 Comentário(s)</a>
-                <a href="">Comentar</a>
-            </div>
-        </div>
-    </section>
+    <div *ngFor="let feedback of feedbacks">
+        <app-card-feedback></app-card-feedback>
+    </div>
 </main>

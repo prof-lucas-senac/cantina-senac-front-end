@@ -24,3 +24,14 @@ header img {
     margin-right: 0.8em;
     border-radius: 50%; /*para deixar a img redonda*/
 }
+
+.div-avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.div-avatar a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Feedback } from './feedback';
 
 @Component({
   selector: 'app-card-feedback',
@@ -6,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-feedback.component.css']
 })
 export class CardFeedbackComponent implements OnInit {
+  nomeUsuario = "NomeUsuario";
+  escopo = "Este é o feedback back";
+  numComentarios = 3;
+
+  feedback: Feedback = {
+    nomeUsuario: "Arthur",
+    escopo: "ola Arthur",
+    numComentario: 0
+  }
 
   constructor() { }
 
