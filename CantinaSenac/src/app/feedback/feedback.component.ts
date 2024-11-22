@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Feedback } from './card-feedback/feedback';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-feedback',
@@ -8,32 +9,15 @@ import { Feedback } from './card-feedback/feedback';
 })
 export class FeedbackComponent implements OnInit {
 
-  feedbacks: Feedback[] = [
-    {
-      nomeUsuario: "Aluno 1",
-      escopo: "Ele é um aluno ruim",
-      numComentario: 2
-    },
-    {
-      nomeUsuario: "Aluno 2",
-      escopo: "Ele é um aluno bom",
-      numComentario: 10
-    },
-    {
-      nomeUsuario: "Aluno 3",
-      escopo: "Ele é um aluno padrão",
-      numComentario: 0
-    },
-    {
-      nomeUsuario: "Aluno Arthur",
-      escopo: "Ele é um aluno ",
-      numComentario: 12
-    }
-  ]
+  feedbacks: Feedback[] = [];
+  apiUrl = "http://localhost:4200/api/feedbacks";
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
+    this.http.get<Feedback[]>(this.apiUrl).subscribe((feedbacks) => {
+      this.feedbacks = feedbacks;
+    })
   }
 
 }

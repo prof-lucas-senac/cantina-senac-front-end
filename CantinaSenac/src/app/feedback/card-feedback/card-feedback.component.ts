@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Feedback } from './feedback';
 
 @Component({
@@ -11,10 +11,11 @@ export class CardFeedbackComponent implements OnInit {
   escopo = "Este é o feedback back";
   numComentarios = 3;
 
-  feedback: Feedback = {
+  @Input() feedback: Feedback = {
     nomeUsuario: "Arthur",
     escopo: "ola Arthur",
-    numComentario: 0
+    numComentario: 0,
+    dataPublicacao: "data de hoje"
   }
 
   constructor() { }
