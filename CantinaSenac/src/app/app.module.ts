@@ -9,6 +9,7 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { AdminComponent } from './admin/admin.component';
 import { CardFeedbackComponent } from './feedback/card-feedback/card-feedback.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardFeedbackComponent } from './feedback/card-feedback/card-feedback.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
