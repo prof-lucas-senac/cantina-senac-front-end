@@ -13,7 +13,7 @@ export class CardFeedbackComponent implements OnInit {
 
   @Input() feedback: Feedback = {
     nomeUsuario: "Arthur",
-    escopo: "ola Arthur",
+    conteudo: "ola Arthur",
     numComentario: 0,
     dataPublicacao: "data de hoje"
   }

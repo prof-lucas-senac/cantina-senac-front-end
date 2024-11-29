@@ -9,15 +9,15 @@ import { HttpClient } from '@angular/common/http';
 })
 export class FeedbackComponent implements OnInit {
 
-  feedbacks: Feedback[] = [];
+  feedbacks: Feedback[] = [ ];
   apiUrl = "http://localhost:4200/api/feedbacks";
 
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get<Feedback[]>(this.apiUrl).subscribe((feedbacks) => {
-      this.feedbacks = feedbacks;
-    })
+    this.http.get<Feedback[]>(this.apiUrl).subscribe((feedbacks) =>
+      this.feedbacks = feedbacks
+    );
   }
 
 }

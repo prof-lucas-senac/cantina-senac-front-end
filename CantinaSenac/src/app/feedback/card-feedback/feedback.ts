@@ -1,6 +1,6 @@
 export interface Feedback {
     nomeUsuario: string,
-    escopo: string,
-    numComentario: number,
+    conteudo: string,
+    numComentario?: number,
     dataPublicacao: string
 }
